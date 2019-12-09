@@ -1,14 +1,5 @@
 package App;
 
-public class Kat extends Dier implements Handeling {
+public class Kat extends Dier {
 
-    @Override
-    public void Eten(String voedsel) {
-
-    }
-
-    @Override
-    public void Spelen(String speelgoed) {
-
-    }
 }

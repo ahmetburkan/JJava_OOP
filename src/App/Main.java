@@ -12,15 +12,19 @@ public class Main extends Application {
         launch(args);
     }
 
-
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
+        Hond husky = new Hond("Kiwi");
+        Bezoeker piet = new Bezoeker("Piet");
+
+
+        husky.spelen("rondjes aan het rennen");
+
+
+
         Parent root = FXMLLoader.load(getClass().getResource("App.fxml"));
-//        primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 900, 400));
         primaryStage.show();
+
     }
-
-
-
 }

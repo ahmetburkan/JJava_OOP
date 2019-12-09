@@ -1,14 +1,23 @@
 package App;
 
-public class Hond extends Dier implements Handeling {
+public class Hond extends Dier {
 
-    @Override
-    public void Eten(String voedsel) {
+    String naam;
+    String spel;
 
+    public Hond(String naam) {
+        this.naam = naam;
     }
 
-    @Override
-    public void Spelen(String speelgoed) {
+    public String getNaam() {
+        return naam;
+    }
 
+    public void spelen(String spel) {
+        this.spel = spel;
+    }
+
+    public String getSpelen() {
+        return  spel;
     }
 }

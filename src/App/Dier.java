@@ -1,10 +1,16 @@
 package App;
 
-import java.awt.*;
+class Dier implements Handeling {
 
+    String voedsel;
 
-class Dier {
+    @Override
+    public void Eten(String voedsel) {
 
-    private TextField num1;
+    }
 
+    @Override
+    public void Interactie(String spelen) {
+
+    }
 }
