@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.controller.AppController">
+   <children>
+      <Pane maxWidth="900.0" prefHeight="600.0" style="-fx-background-color: grey;" VBox.vgrow="NEVER">
+         <children>
+            <Pane maxWidth="200.0" minWidth="200.0" prefHeight="400.0" style="-fx-background-color: #af2345;">
+               <children>
+                  <Label layoutX="5.0" layoutY="5.0" text="Welkom bij de leuke dieren" wrapText="true">
+                     <font>
+                        <Font name="Khmer OS System" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Text layoutX="259.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wie">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+
+            <ChoiceBox fx:id="selectbox" layoutX="218.0" layoutY="62.0" prefWidth="150.0">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="Bezoeker" />
+                     <String fx:value="Hond" />
+                     <String fx:value="Kat" />
+                     <String fx:value="Konijn" />
+                  </FXCollections>
+               </items>
+            </ChoiceBox>
+            <Text layoutX="462.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wat">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="wat" layoutX="400.0" layoutY="62.0" />
+            <Text layoutX="627.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Met wie">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <ChoiceBox fx:id="selectbox1" layoutX="599.0" layoutY="62.0" prefWidth="150.0">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="Bezoeker" />
+                     <String fx:value="Hond" />
+                     <String fx:value="Kat" />
+                     <String fx:value="Konijn" />
+                  </FXCollections>
+               </items>
+            </ChoiceBox>
+            <Button layoutX="791.0" layoutY="62.0" mnemonicParsing="false" text="Uitvoeren" />
+            <Text fx:id="result" layoutX="236.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+
+
+         </children>
+      </Pane>
+   </children>
+</VBox>

@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App/Bezoeker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/model/Bezoeker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/model/DierenLijst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/model/Handeling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/model/Hond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/test/BezoekerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/test/HondTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Dier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_v1/App/Dier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Handeling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_v1/App/Handeling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Hond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_v1/App/Hond.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Kat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_v1/App/Kat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Konijn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_v1/App/Konijn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_v1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/AppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Bezoeker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Dier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Handeling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Hond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Kat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Konijn.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/App/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_v1/App/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_v1/META-INF/OOP_v1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Dier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Dier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Handeling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Handeling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Hond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Hond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Kat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Kat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Konijn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Konijn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/view/App.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Bezoeker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Dier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/model/Dier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Handeling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Hond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Kat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/model/Kat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Konijn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/model/Konijn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +83,10 @@
       <list>
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -98,6 +110,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -105,26 +118,52 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="App.model.Dier" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/share/openjfx/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="App.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App/view" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="App.model.Dier" />
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="App" />
       <recent name="sample" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="App.model" />
       <recent name="App" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -149,7 +188,7 @@
       <option name="VM_PARAMETERS" value="--module-path /usr/share/openjfx/lib --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="App.*" />
+          <option name="PATTERN" value="App.model.DierenLijst" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +200,103 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BezoekerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App.model.DierenLijst" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App.test" />
+      <option name="MAIN_CLASS_NAME" value="App.test.BezoekerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BezoekerTest.getNaam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App.model.DierenLijst" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App.test" />
+      <option name="MAIN_CLASS_NAME" value="App.test.BezoekerTest" />
+      <option name="METHOD_NAME" value="getNaam" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App.model.DierenLijst" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App.model" />
+      <option name="MAIN_CLASS_NAME" value="App.model.DierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App.test" />
+      <option name="MAIN_CLASS_NAME" value="App.test.HondTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HondTest.testAanHetSpelen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App.test" />
+      <option name="MAIN_CLASS_NAME" value="App.test.HondTest" />
+      <option name="METHOD_NAME" value="testAanHetSpelen" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +332,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HondTest" />
+        <item itemvalue="JUnit.BezoekerTest" />
+        <item itemvalue="JUnit.HondTest.testAanHetSpelen" />
+        <item itemvalue="JUnit.BezoekerTest.getNaam" />
+        <item itemvalue="JUnit.DierTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -234,6 +379,11 @@
       <workItem from="1575565776442" duration="1723000" />
       <workItem from="1575643393947" duration="376000" />
       <workItem from="1575887814496" duration="420000" />
+      <workItem from="1575974075731" duration="153000" />
+      <workItem from="1575991426455" duration="58000" />
+      <workItem from="1576160421567" duration="3191000" />
+      <workItem from="1576230501042" duration="4847000" />
+      <workItem from="1576235362494" duration="12096000" />
     </task>
     <servers />
   </component>
@@ -258,41 +408,101 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2338" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575888233854">
+    <state x="2475" y="200" width="800" height="729" key="#Intentions" timestamp="1576240120616">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2475" y="200" width="800" height="729" key="#Intentions/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576240120616" />
+    <state x="2338" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576244026756">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2338" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576244026756" />
     <state x="2338" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575888233854" />
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1575557938366">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575557938366" />
-    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1575643768867">
+    <state x="2020" y="98" width="1720" height="882" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576242137376">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2020" y="98" width="1720" height="882" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576242137376" />
+    <state x="2681" y="244" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1576241356414">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2681" y="244" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576241356414" />
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1576163657481" />
+    <state x="2608" y="325" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576243043860">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2608" y="325" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576243043860" />
+    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1576248489225">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576248489225" />
+    <state x="2508" y="340" width="735" height="513" key="FileChooserDialogImpl" timestamp="1575974155825">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2508" y="340" width="735" height="513" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1575974155825" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1576248647084">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576248647084" />
     <state width="1874" height="285" key="GridCell.Tab.0.bottom/67.27.1853.1053/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575643768867" />
-    <state width="1062" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575561445065" />
-    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1575643768867">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576162776437" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1576248647084">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576248647084" />
     <state width="1874" height="285" key="GridCell.Tab.0.center/67.27.1853.1053/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575643768867" />
-    <state width="1062" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575561445065" />
-    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1575643768867">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576162776434" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1576248647083">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576248647083" />
     <state width="1874" height="285" key="GridCell.Tab.0.left/67.27.1853.1053/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575643768867" />
-    <state width="1062" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575561445065" />
-    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1575643768867">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576162776433" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1576248647084">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576248647084" />
     <state width="1874" height="285" key="GridCell.Tab.0.right/67.27.1853.1053/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575643768867" />
-    <state width="1062" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575561445065" />
-    <state x="2369" y="174" key="SettingsEditor" timestamp="1575887827682">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576162776436" />
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom" timestamp="1576241055928">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576241055928" />
+    <state width="1874" height="354" key="GridCell.Tab.1.center" timestamp="1576241055928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576241055928" />
+    <state width="1874" height="354" key="GridCell.Tab.1.left" timestamp="1576241055928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576241055928" />
+    <state width="1874" height="354" key="GridCell.Tab.1.right" timestamp="1576241055928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576241055928" />
+    <state x="2369" y="174" width="1024" height="845" key="SettingsEditor" timestamp="1575974175183">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2369" y="174" width="1024" height="845" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1575974175183" />
     <state x="2369" y="174" key="SettingsEditor/67.27.1853.1053/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575887827682" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575554842205">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575554842205" />
+    <state x="2552" y="435" width="646" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576240156751">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2552" y="435" width="646" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576240156751" />
+    <state x="2654" y="244" width="442" height="590" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576247084654">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2654" y="244" width="442" height="590" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576247084654" />
+    <state x="2525" y="143" width="710" height="792" key="find.popup" timestamp="1576246866622">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2525" y="143" width="710" height="792" key="find.popup/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576246866622" />
+    <state x="2531" y="232" key="run.anything.popup" timestamp="1576244796537">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2531" y="232" key="run.anything.popup/67.27.1853.1053/1920.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1576244796537" />
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576162594705" />
   </component>
 </project>
