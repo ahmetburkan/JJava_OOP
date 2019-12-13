@@ -25,7 +25,7 @@
                </font>
             </Text>
 
-            <ChoiceBox fx:id="selectbox" layoutX="218.0" layoutY="62.0" prefWidth="150.0">
+            <ChoiceBox fx:id="dierkeuze" layoutX="218.0" layoutY="62.0" prefWidth="150.0">
                <items>
                   <FXCollections fx:factory="observableArrayList">
                      <String fx:value="Bezoeker" />
@@ -40,13 +40,13 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <TextField fx:id="wat" layoutX="400.0" layoutY="62.0" />
+            <TextField fx:id="handeling" layoutX="400.0" layoutY="62.0" />
             <Text layoutX="627.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Met wie">
                <font>
                   <Font size="24.0" />
                </font>
             </Text>
-            <ChoiceBox fx:id="selectbox1" layoutX="599.0" layoutY="62.0" prefWidth="150.0">
+            <ChoiceBox fx:id="bezoekerkeuze" layoutX="599.0" layoutY="62.0" prefWidth="150.0">
                <items>
                   <FXCollections fx:factory="observableArrayList">
                      <String fx:value="Bezoeker" />
@@ -56,7 +56,7 @@
                   </FXCollections>
                </items>
             </ChoiceBox>
-            <Button layoutX="791.0" layoutY="62.0" mnemonicParsing="false" text="Uitvoeren" />
+            <Button fx:id="uitvoeren" layoutX="791.0" layoutY="62.0" mnemonicParsing="false" text="Uitvoeren" />
             <Text fx:id="result" layoutX="236.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0">
                <font>
                   <Font size="24.0" />
