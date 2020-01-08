@@ -1,8 +1,5 @@
 package App.model;
 
-import java.lang.reflect.Array;
-import java.util.List;
-
 public class Bezoeker implements Handeling {
     private String gastnaam;
     private String gastspel;
@@ -12,6 +9,9 @@ public class Bezoeker implements Handeling {
     public void setNaam(String naam) {
         try {
             this.gastnaam = naam;
+
+            ObjLijst.getInstance().lijst.add(this);
+
         } catch (ArithmeticException e){
             System.out.println(e);
         }

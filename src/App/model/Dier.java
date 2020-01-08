@@ -10,7 +10,8 @@ public abstract class Dier implements Handeling {
     public void setNaam(String naam) {
         try {
             this.diernaam = naam;
-            DierenLijst.getInstance().lijst.add(this.getNaam());
+
+            ObjLijst.getInstance().lijst.add(this);
 
         } catch (ArithmeticException e){
             System.out.println(e);

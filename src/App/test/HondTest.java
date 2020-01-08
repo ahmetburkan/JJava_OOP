@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class HondTest extends Dier {
     Hond hondje = new Hond();
-    String  testnaam = "gozert";
+    String testnaam = "gozert";
     String  testmetwie = "piet";
     String  testspel = "dansen";
 

@@ -1,6 +1,6 @@
 package App.model;
 
-interface Handeling {
+public interface Handeling {
 
     void setNaam(String naam);
     String getNaam();

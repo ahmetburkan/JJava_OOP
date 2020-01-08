@@ -1,13 +1,14 @@
 package App.test;
 
 import App.model.Bezoeker;
+import App.model.Dier;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class BezoekerTest {
     Bezoeker gast = new Bezoeker();
-    String  testnaam = "gozert";
+    String testnaam = "gozert";
     String  testmetwie = "piet";
     String  testspel = "dansen";
 
