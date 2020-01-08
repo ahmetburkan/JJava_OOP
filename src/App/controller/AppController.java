@@ -85,6 +85,9 @@ public class AppController {
                         break;
                 }
 
+                objectnaam.clear();
+                objectactie.clear();
+
                 populateChoiceBox();
 
             }

@@ -59,7 +59,7 @@
                     </font>
                 </Text>
 
-                <!--        Start object aanmaken-->
+<!--        Start object aanmaken-->
                 <Text fx:id="title" layoutX="220.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0"
                       text="Object aanmaken">
                     <font>
@@ -98,7 +98,7 @@
                 <TextField fx:id="objectactie" layoutX="600.0" layoutY="100"/>
 
                 <Button fx:id="objectaanmaken" layoutX="800.0" layoutY="100" mnemonicParsing="false" text="Aanmaken"/>
-                <!--        Stop object aanmaken-->
+<!--        Stop object aanmaken-->
 
             </children>
         </Pane>
